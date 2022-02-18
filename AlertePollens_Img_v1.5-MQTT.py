@@ -18,7 +18,7 @@ debugMode = 1;
 
 while True:  
     
-    # Map gÃ©nÃ©rale CARTE DE VIGILANCE DES POLLENS 
+    # Map générale CARTE DE VIGILANCE DES POLLENS 
     imgURL_Vigil = "https://www.pollens.fr/generated/vigilance_map.png"
     response = requests.get(imgURL_Vigil)
     file = open("vigilance_map.png", "wb")
@@ -26,7 +26,7 @@ while True:
     file.close()
     
     
-    # Map cyprÃ¨s CUPRESSACÃ‰ES 
+    # Map cyprés CUPRESSACÃ‰ES 
     imgURL_Cypres = "https://www.pollens.fr/uploads/historic/2022/cypres.png"
     response = requests.get(imgURL_Cypres)
     file = open("cypres.png", "wb")
